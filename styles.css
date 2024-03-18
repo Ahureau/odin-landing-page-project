@@ -41,7 +41,7 @@ h1 {
     gap: 16px;
 }
 
-/* main content & all rows */
+/* main content & many or all rows */
 
 main{
     display: flex;
@@ -51,14 +51,22 @@ main{
 .row{
     display: flex;
     flex-direction: column;
-    padding: 50px 15%;
+    padding: 80px 15%;
     align-items: center;
+}
+
+.centred-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 5vw;
 }
 
 /* hero row */
 
 .hero {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     align-items: center;
     gap: 16px;
@@ -83,32 +91,47 @@ main{
 
 /* showcase */
 
-.showcases {
+.showcase-boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
+    align-items: center;
 }
 
-.showcase {
+.showcase-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
     flex: 1 1 150px;
+    align-items: center;
+}
+
+.image-description {
+    width: 150px;
 }
 
 .image {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 2px solid blue;
 }
 
 /* quote */
 
-
+.quote-author {
+    text-align: right;
+}
 
 /* call to action */
 
-
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: lightblue;
+}
 
 /* footer */
