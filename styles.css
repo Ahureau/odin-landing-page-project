@@ -44,8 +44,8 @@ p {
 
 .button {
     background-color: #3882f6;
-    width: 128px;
-    height: 40px;
+    width: fit-content;
+    padding: 10px 20px;
     text-decoration: none;
     color: white;
     display: flex;
@@ -197,7 +197,7 @@ main{
 }
 
 p.quote-text {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: lighter;
     font-style: italic;
 }
