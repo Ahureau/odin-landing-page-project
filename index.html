@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
     <title>Odin landing page project</title>
 </head>
 <body>
@@ -12,25 +13,30 @@
     <header class="header">
         <div class="logo">Header Logo</div>
         <nav class="header-links">
-            <ul>
                 <a href="google.com">header link one</a>
                 <a href="google.com">header link two</a>
                 <a href="google.com">header link three</a>
-            </ul>
         </nav>
     </header>
 
     <!-- content -->
 
-    <div class="content">
+    <main>
 
         <!-- hero -->
 
-        <div class="row horizontal">
-            <div class="hero-content">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <a class="button" href="google.com">Sign up</a>
+        <div class="row">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <a class="button" href="google.com">
+                        <p>Sign up</p>
+                    </a>
+                </div>
+                <div class="img-placeholder">
+                    <p>img-placeholder</p>
+                </div>
             </div>
         </div>
 
@@ -83,16 +89,17 @@
                     <h3 class="banner-title">Call to action! It's time!</h3>
                     <p class="banner-text">Sign up for our product by clickin that button right over there!</p>
                 </div>
-                <div class="button banner-button">Sign up</div>
+                <div class="button secondary">Sign up</div>
             </div>
         </div>
 
-        <!-- footer -->
+    </main>
 
-        <footer>
-            <p>Copyright © The Odin Project 1881</p>
-        </footer>
+    <!-- footer -->
 
-    </div>
+    <footer>
+        <p>Copyright © The Odin Project 1881</p>
+    </footer>
+
 </body>
 </html>

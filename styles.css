@@ -1,0 +1,83 @@
+/* whole page */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    background-color: blue;
+    width: 128px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/* main content & all rows */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 15%;
+    align-items: flex-start;
+}
+
+/* hero row */
+
+.hero {
+    display: flex;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-placeholder {
+    background-color: grey;
+    width: 600px;
+    height: 250px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* showcase */
+
+
+
+/* quote */
+
+
+
+/* call to action */
+
+
+
+/* footer */
