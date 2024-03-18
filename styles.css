@@ -126,7 +126,7 @@ main{
 .hero {
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: center;
     gap: 32px;
 }
@@ -140,13 +140,16 @@ main{
     gap: 16px;
 }
 
-.img-placeholder {
+.hero-image {
     background-color: grey;
-    height: 200px;
     flex: 1 1 400px;
+    height: 300px;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
 }
 
 /* showcase */
@@ -180,7 +183,7 @@ main{
     width: 150px;
 }
 
-.image {
+.showcase-image {
     height: 150px;
     width: 150px;
     border: 2px solid #3882f6;
