@@ -44,11 +44,12 @@ p {
 
 .button {
     background-color: #3882f6;
-    width: fit-content;
     padding: 10px 20px;
     text-decoration: none;
     color: white;
     display: flex;
+    width: fit-content;
+    min-width: fit-content;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -74,6 +75,7 @@ footer {
 }
 
 header {
+    display: flex;
     justify-content: space-between;
     font-size: 24px;
 }
@@ -211,9 +213,10 @@ p.quote-text {
 .banner {
     display: flex;
     justify-content: space-between;
+    gap: 32px;
     align-items: center;
     width: 100%;
-    padding: 30px 100px;
+    padding: 30px 60px;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
